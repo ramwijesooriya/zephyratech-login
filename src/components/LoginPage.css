@@ -1,0 +1,200 @@
+
+
+.bg-image{
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Main Container */
+
+.login-container {
+  background: url('/Users/asankawijesooriya/Movies/MERN/Project_Loging/zephyratech-login/public/Untitled design_20250601_164857_0000.png') no-repeat center center;
+  background-size: cover;
+
+  left: 0;
+  display: flex;
+  width: 2000px;
+  min-height: 100vh;
+  background-color:white;
+  font-family: 'Arial', sans-serif;
+  padding-left: 2px; /* Add this line */
+}
+
+/* Form Container */
+.login-form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 ;
+}
+
+/* Header Styles */
+.login-header {
+  margin-bottom: 2rem;
+}
+
+.app-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo-circle {
+  width: 24px;
+  height: 24px;
+  background-color: #0066cc;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.app-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.start-free {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.form-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.blue-dot {
+  color: #0066cc;
+}
+
+.login-prompt {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.login-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.name-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.Change-method {
+  background-color:white/500;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.change-method:hover {
+  text-decoration: underline;
+}
+
+.submit-button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #0052a3;
+}
+
+.submit-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.change {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Adds space between the link and button */
+  margin-bottom: 1.5rem;
+}
+.first{
+  width: 80%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+
+
+}
+
+.second{
+  width:100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+
+}
