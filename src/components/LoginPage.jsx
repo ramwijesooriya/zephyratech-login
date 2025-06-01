@@ -99,20 +99,21 @@ const LoginPage = () => {
             </div>
           </div>
 
-          <div>
-            <input
-            type="email"
-            name="email"
-            placeholder="michal.masiak@anywhere.co"
-            value={formData.email}
-            onChange={handleInputChange}
-            className="form-input"
-            required
-          />
-          <button>
-              <Mail className="w-5 h-5" />
-          </button>
-          </div>
+          <div className="relative">
+  <input
+    type="email"
+    name="email"
+    placeholder="michal.masiak@anywhere.co"
+    value={formData.email}
+    onChange={handleInputChange}
+    className="form-input pl-10"
+    required
+    
+  />
+  {/* <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" /> */}
+
+</div>
+
          
           
 
